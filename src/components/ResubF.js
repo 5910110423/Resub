@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+
+const Click = () => <h1>Click here</h1>
 
 class ResubF extends Component {
   render() {
@@ -7,14 +10,13 @@ class ResubF extends Component {
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <h5 class="white-text">ReSuB</h5>
+              <p class="grey-text text-lighten-4">พื้นที่เล็ก ๆ สำหรับแบ่งปันประสบการณ์ จากรุ่นพี่สู่รุ่นน้อง เพราะเราคือครอบครัว PSU</p>
             </div>
             <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
+              <h5 class="white-text">Contact us</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><Route path="/" component={Click} /></li>
                 
               </ul>
             </div>
@@ -22,8 +24,7 @@ class ResubF extends Component {
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          <a class="grey-text text-lighten-4 right" href="#!">PSU</a>
           </div>
         </div>
       </footer>

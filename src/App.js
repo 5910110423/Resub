@@ -3,18 +3,20 @@ import './App.css';
 import ResubH from './components/ResubH';
 import ResebF from './components/ResubF';
 import ResubC from './components/ResubC';
+import { Route } from 'react-router-dom';
 
 
 class App extends Component {
   render(){
     return(
-      <body>
+     <body>
         <ResubH/>
-      <div class="container">
+      <div>
           <ResubC/>
       </div>
-      <ResebF/>
-    </body>
+        <ResebF/>
+     </body>
+     
     );
   }
 

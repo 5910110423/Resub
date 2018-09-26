@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
+import hiking from './img/hiking.png';
+import '../App.css';
+
 
 class ResubC extends Component {
   render() {
     return (
+      <div class="main">
         <div class="row">
-            <div class = "col s12">
-                jhfjsbcjsbcjsbdjbds
+        <div class = "col s1"></div>
+            <div class = "App col s10">
+                <img src={hiking} />
             </div>
+         <div class = "col s1"></div>
         </div>
+      </div>
     );
   }
 }
