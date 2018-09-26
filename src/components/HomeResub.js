@@ -1,22 +1,18 @@
 import React, { Component } from 'react';
-import '../App.css';
-import ResubH from './components/ResubH';
-import ResebF from './components/ResubF';
-
-
+import ResubH from './ResubH';
+import ResebF from './ResubF';
+import cover from './img/cover.jpg'
 
 class HomeResub extends Component {
-  render(){
-    return(
-      <body>
-        <ResubH/>
-      <div>
-          <p>ggggggggggggg</p>
-      </div>
-      <ResebF/>
-    </body>
-    );
-  }
-
+    render(){
+      return(
+        <body>
+            <ResubH/>
+            <div>
+                <img src={cover}></img>
+            </div>
+            <ResebF/>
+        </body>
+      )};
 }
 export default HomeResub;

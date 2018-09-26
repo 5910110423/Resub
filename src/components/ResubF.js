@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-
 const Click = () => <h1>Click here</h1>
 
 class ResubF extends Component {
@@ -16,8 +15,7 @@ class ResubF extends Component {
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Contact us</h5>
               <ul>
-                <li><Route path="/" component={Click} /></li>
-                
+                <li><a class="grey-text text-lighten-3" href="#!">Click</a></li>
               </ul>
             </div>
           </div>

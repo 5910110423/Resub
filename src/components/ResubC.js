@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import hiking from './img/hiking.png';
-import '../App.css';
 
 
 class ResubC extends Component {
