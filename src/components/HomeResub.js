@@ -7,11 +7,9 @@ class HomeResub extends Component {
     render(){
       return(
         <body>
-            <ResubH/>
             <div>
                 <img src={cover}></img>
             </div>
-            <ResebF/>
         </body>
       )};
 }

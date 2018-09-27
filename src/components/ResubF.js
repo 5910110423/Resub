@@ -15,7 +15,7 @@ class ResubF extends Component {
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Contact us</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Click</a></li>
+                <li><a class="grey-text text-lighten-3" href="/contact">Click</a></li>
               </ul>
             </div>
           </div>

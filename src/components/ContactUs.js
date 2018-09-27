@@ -9,7 +9,7 @@ class ContactUs extends Component {
   render(){
     return(
     <body>
-        <ResubH/>
+        
         <div>
             <div class="row teal lighten-3 z-depth-3">
                 <div class="col s2"></div>
@@ -46,7 +46,6 @@ class ContactUs extends Component {
             
             </div>
         </div>    
-      <ResebF/>
     </body>
     );
   }

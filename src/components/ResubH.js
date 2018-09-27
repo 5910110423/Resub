@@ -54,7 +54,7 @@ class ResubH extends Component {
                 <div class="col s1">
                     {/*<img height="40px" src = {logo}/>*/}
                 </div>
-                <div class="col s2">ReSuB</div>
+                <div class="col s2"><a class="grey-text text-lighten-3" href="/homeResub">RESUB</a></div>
                 <div class="col s5">{this.renderName()}</div>
                 <div class="col s2">
                      <button class="btn" onClick={this.login}>
